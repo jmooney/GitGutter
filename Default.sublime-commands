@@ -38,6 +38,10 @@
         "command": "git_gutter_compare_head"
     },
     {
+        "caption": "GitGutter: Compare Against HEAD^",
+        "command": "git_gutter_compare_head_parent"
+    },
+    {
         "caption": "GitGutter: Compare Against Origin",
         "command": "git_gutter_compare_origin"
     },

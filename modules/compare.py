@@ -163,6 +163,19 @@ def set_against_head(git_gutter, **kwargs):
     git_gutter.git_handler.set_compare_against('HEAD', True)
 
 
+def set_against_head_parent(git_gutter, **kwargs):
+    """Set HEAD^ as compare target.
+
+    Arguments:
+        git_gutter (GitGutterCommand): The main command object, which
+            represents GitGutter.
+        kwargs (dict): The arguments received from the `run_command`.
+            This argument is declared to create a common interface being used
+            by the GitGutterCommand object.
+    """
+    git_gutter.git_handler.set_compare_against('HEAD^', True)
+
+
 def set_against_origin(git_gutter, **kwargs):
     """Set origin as compare target.
 

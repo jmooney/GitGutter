@@ -46,6 +46,11 @@
                         "command": "git_gutter_compare_head"
                     },
                     {
+                        "caption": "Compare Against HEAD^",
+                        "command": "git_gutter_compare_head_parent"
+                    },
+                    { "caption": "-" },
+                    {
                         "caption": "Compare Against Origin",
                         "command": "git_gutter_compare_origin"
                     },
